@@ -1,12 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* components: header*/
+header {
+  height: 10%;
+}
+
+/* components: Main */
+main {
+  height: 30%;
+}
+
 .blackContent {
-  height: 10vh;
+  padding-block: 28px;
 }
 
 .primaryContent {
-  height: 20vh;
+  padding-block: 28px;
 }
 
 .small-icon {
   width: 50px;
   height: auto;
+}
+
+/* components: footer*/
+
+.bgHeroes {
+  background-image: url('src/assets/img/footer-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footerblk {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 20vh;
+}
+
+.centered-logo {
+  position: absolute;
+  top: 50%;
+  left: 71%;
+  transform: translate(-50%, -50%);
+  width: 27%;
+  height: auto;
+}
+
+.fontSize {
+  font-size: 0.78rem;
 }
