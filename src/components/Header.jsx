@@ -1,18 +1,23 @@
 const Header = () => {
     return (
-        <header>
-            <figure>
-                <img src="/logo.png" alt="Logo" />
-            </figure>
-            <nav>
-                <ul>
-                    <li><a className="text-primary" href="#">Home</a></li>
-                    <li><a href="#" className="active">Prodotti</a></li>
-                    <li><a href="#">Chi siamo</a></li>
-                    <li><a href="#">Contatti</a></li>
-                </ul>
-            </nav>
-
+        <header className="  py-2">
+            <div className="container d-flex justify-content-between align-items-center">
+                <img src="/dc-logo.png" alt="DC Comics Logo" className="logo" height="80" />
+                <nav>
+                    <ul className="nav">
+                        <li className="nav-item"><a className="nav-link text-black fw-bold text-uppercase " href="#">Characters</a></li>
+                        <li className="nav-item"><a className="nav-link text-black fw-bold text-uppercase" href="#">Comics</a></li>
+                        <li className="nav-item"><a className="nav-link text-black fw-bold text-uppercase" href="#">Movies</a></li>
+                        <li className="nav-item"><a className="nav-link text-black fw-bold text-uppercase" href="#">TV</a></li>
+                        <li className="nav-item"><a className="nav-link text-black fw-bold text-uppercase" href="#">Games</a></li>
+                        <li className="nav-item"><a className="nav-link text-black fw-bold text-uppercase" href="#">Collectibles</a></li>
+                        <li className="nav-item"><a className="nav-link text-black fw-bold text-uppercase" href="#">Videos</a></li>
+                        <li className="nav-item"><a className="nav-link text-black fw-bold text-uppercase" href="#">Fans</a></li>
+                        <li className="nav-item"><a className="nav-link text-black fw-bold text-uppercase" href="#">News</a></li>
+                        <li className="nav-item"><a className="nav-link text-black fw-bold text-uppercase" href="#">Shop</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
     )
 }
