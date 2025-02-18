@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-1 mt-3 text-light">
                             <ul>
-                                <li className="bold"> DC COMICS </li>
+                                <li className="bold fontTitle"> DC COMICS </li>
                                 <li className="text-secondary">Characters</li>
                                 <li className="text-secondary">Movies</li>
                                 <li className="text-secondary">TV</li>
@@ -17,7 +17,7 @@ const Footer = () => {
                                 <li className="text-secondary">Videos</li>
                                 <li className="text-secondary">News</li>
                                 <li className="text-secondary">Comics</li>
-                                <li className="bold"> SHOP </li>
+                                <li className="bold mt-2 fontTitle"> SHOP </li>
                                 <li className="text-secondary">Shop DC</li>
                                 <li className="text-secondary">Shop DC Collectibles</li>
 
@@ -26,7 +26,7 @@ const Footer = () => {
                         </div>
                         <div className="col-md-1 mt-3 text-light">
                             <ul>
-                                <li className="bold"> DC </li>
+                                <li className="bold fontTitle"> DC </li>
                                 <li className="text-secondary">Term Of use</li>
                                 <li className="text-secondary">Privacy Policy(New)</li>
                                 <li className="text-secondary">Ad Choices</li>
@@ -42,7 +42,7 @@ const Footer = () => {
                         </div>
                         <div className="col-md-1  mt-3  text-light">
                             <ul>
-                                <li className="bold">SITES </li>
+                                <li className="bold fontTitle">SITES </li>
                                 <li className="text-secondary">DC</li>
                                 <li className="text-secondary">MAD Magazine</li>
                                 <li className="text-secondary">DC Kids</li>
@@ -57,7 +57,7 @@ const Footer = () => {
 
                 </div>
             </section>
-            <section className="footerblk d-flex justify-content-between align-items-center ">
+            <section className="footerblk d-flex justify-content-around align-items-center ">
                 <button className="btn btn-outline-primary mt-3 mb-3 text-light">
                     SING-UP NOW
                 </button>

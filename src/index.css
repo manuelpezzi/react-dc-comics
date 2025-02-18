@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  font-family: "Open Sans", serif;
 }
 
 /* components: header*/
@@ -20,6 +22,8 @@ main {
 
 .primaryContent {
   padding-block: 28px;
+  position: relative;
+  z-index: 4;
 }
 
 .small-icon {
@@ -36,8 +40,10 @@ main {
 }
 
 .footerblk {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(62, 61, 61);
   height: 20vh;
+  z-index: 4;
+  position: relative;
 }
 
 .centered-logo {
@@ -45,10 +51,14 @@ main {
   top: 50%;
   left: 71%;
   transform: translate(-50%, -50%);
-  width: 27%;
   height: auto;
+  z-index: 3;
 }
 
 .fontSize {
   font-size: 0.78rem;
+}
+
+.fontTitle {
+  font-size: 1.2rem;
 }
