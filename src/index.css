@@ -36,12 +36,15 @@ main {
 .bgHeroes {
   background-image: url('src/assets/img/footer-bg.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
+
+
 .footerblk {
   background-color: rgb(62, 61, 61);
-  height: 20vh;
+
   z-index: 4;
   position: relative;
 }

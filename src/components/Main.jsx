@@ -1,5 +1,7 @@
+
 const Main = () => {
     return (
+
         <main>
             <section className="bg-black blackContent">
                 <div className="container">

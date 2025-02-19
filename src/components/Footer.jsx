@@ -5,7 +5,7 @@ const Footer = () => {
                 <picture>
                     <img src="src\assets\img\dc-logo-bg.png" alt="dc logo" className="centered-logo" />
                 </picture>
-                <div className="container fontSize">
+                <div className="container fontSize bgLogo">
                     <div className="row">
                         <div className="col-md-1 mt-3 text-light">
                             <ul>
