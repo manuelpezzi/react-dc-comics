@@ -4,7 +4,7 @@ import Footer from "./components/Footer"
 
 function App() {
 
-  const Navlinks = [
+  const NavLinks = [
     { id: 1, href: '#', text: 'Characters' },
     { id: 2, href: '#', text: 'Comics' },
     { id: 3, href: '#', text: 'Movies' },
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Header Navlinks={Navlinks} />
+      <Header NavLinks={NavLinks} />
       <Main />
       <Footer />
     </>
