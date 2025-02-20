@@ -31,6 +31,17 @@ main {
   height: auto;
 }
 
+.jumbotron {
+  background: url(./assets/img/jumbotron.jpg);
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.trasparent {
+  background-color: transparent;
+}
+
 /* components: footer*/
 
 .bgHeroes {

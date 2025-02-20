@@ -1,16 +1,10 @@
+import ComicsList from "./comics/ComicsList"
 const Main = () => {
     return (
 
         <main>
-            <section className="bg-black blackContent">
-                <div className="container">
-                    <div className="row">
-                        <div className="col text-start ">
-                            <h1 className="text-light pt-3  "> --{">"} content goes here{"<"}-- </h1>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div className="jumbotron"></div>
+            <ComicsList />
             <section className="bg-primary primaryContent ">
                 <div className="container">
                     <div className="row">
